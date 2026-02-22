@@ -1,0 +1,15 @@
+
+
+{
+  "name": "foundersales",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "nodemailer": "^6.9.7"
+  }
+}
